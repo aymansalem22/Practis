@@ -1,1 +1,1 @@
-# Practis
+# Practices 
