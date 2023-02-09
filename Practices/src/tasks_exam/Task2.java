@@ -10,10 +10,6 @@ public class Task2 {
 	public static boolean check(char[] password) {
 		String str = String.valueOf(password);
 		String PASSWORD_PATTERN = "(?=.*[a-z])(?=(.*\\d){2}).{8,}$";
-		// at least one letter ...?=.*[a-z]
-		// at least two digits ...?=(.*\\d){2}
-		// at least size 8.....{8,}
-		// $ end of string
 		if ((str.matches(PASSWORD_PATTERN))) {
 
 			return true;
