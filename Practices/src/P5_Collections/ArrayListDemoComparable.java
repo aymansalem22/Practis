@@ -1,7 +1,6 @@
 package P5_Collections;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 //will not compile as the Employee class does not implement the Comparable interface.
