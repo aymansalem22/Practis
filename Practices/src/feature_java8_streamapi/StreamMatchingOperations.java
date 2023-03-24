@@ -49,4 +49,11 @@ class newPerson {
 		return country;
 	}
 
+	@Override
+	public String toString() {
+		return "newPerson [name=" + name + ", age=" + age + ", country=" + country + "]";
+	}
+	
+	
+
 }
