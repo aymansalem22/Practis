@@ -2,6 +2,7 @@ package feature_java8_streamapi;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 public class StreamMethodReferencesArbitrary {
 
@@ -52,6 +53,10 @@ class Employee {
 
 	public int getSalary() {
 		return salary;
+	}
+
+	public Optional<Integer> getSalary_v2() {
+		return Optional.of(salary);
 	}
 
 	@Override
