@@ -31,6 +31,7 @@ class Employee {
 	String name;
 	int age;
 	int salary;
+	String country;
 
 	public Employee(String name) {
 		super();
@@ -41,6 +42,16 @@ class Employee {
 		this.name = name;
 		this.age = age;
 		this.salary = salary;
+	}
+	
+	
+
+	public Employee(String name, int age, int salary, String country) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.salary = salary;
+		this.country = country;
 	}
 
 	public String getName() {
@@ -59,8 +70,18 @@ class Employee {
 		return Optional.of(salary);
 	}
 
+	public String getCountry() {
+		return country;
+	}
+
+	public void setCountry(String country) {
+		this.country = country;
+	}
+
 	@Override
 	public String toString() {
-		return "Employee{" + "name='" + name + '\'' + ", age=" + age + ", salary=" + salary + '}';
+		return "Employee [name=" + name + ", age=" + age + ", salary=" + salary + ", country=" + country + "]";
 	}
+
+	
 }
