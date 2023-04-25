@@ -1,6 +1,6 @@
 package javachallenges;
 
-// Java Programming Masterclass...v44. if then else Challenge
+// 44. if then else Challenge
 public class ch1 {
 	public static void main(String[] args) {
 		boolean gameOver = true;
